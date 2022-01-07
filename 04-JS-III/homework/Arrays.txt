@@ -1,0 +1,6 @@
+Un arreglo es una caja con diferentes compartimentos dentro, a la cual se le nombra a la primera a partir de 0,
+es decir, si la caja tiene 10 compartimentos o espacios dentros, serían numeradas de 0 a 9 y es así como podemos ubicar
+lo que esta dentro de cada espacio.
+
+Con los ciclos de iteración se pueden recorrer dichos espacios, hay funciones para buscar, agregar y eliminar los valores de los espacios de la caja.
+
