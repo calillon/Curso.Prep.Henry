@@ -1,0 +1,26 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+	* Objetos
+	* Propiedades
+	* Métodos
+	* Bucle `for…in`
+	* Notación de puntos vs notación de corchetes
+
+    Objetos: son moldes para utilizar muchas veces los cuales se pueden modificar según se requiera cambiar, en lugar de tener cajas ("arrays"), aqui podemos construir como un lego
+    el molde que necesitemos con "espacios" de diferente tipo ( propiedades) donde podemos almacenar diferentes datos como números, letras, arreglos (cajas), otros objetos(moldes).
+
+    Propiedades: En el ejemplo del molde serían los espacios del molde donde vamos a guardar los diferentes tipos de datos y estos espacios tienen un nombre y un valor, trabajan en parejas,
+    por lo tanto a una propiedad no puedo guardarle datos sin decir primero cual es el nombre de la propiedad, y no puedo crear una propiedad, sin decir al menos 1 valor con su tipo.
+
+    Métodos: son las propiedades de tipo función, es decir, en lugar de guardar solo un dato, también podemos guardar un mecanismo, como si tuvieramos un objeto persona, con sus propiedades
+    estaticas o características fijas, como color de ojos, color de cabello, tono de piel, etc. En este ejemplo una propiedad de tipo función o método sería, Caminar, Reír, Hablar, etc Se pueden
+    crear tantos métodos como sea necesario.
+
+    Bucle For .. In:  Este ciclo iterativo sirve para recorrer el objeto con sus diferentes propiedades, así como usamos otros ciclos (while, for, foreach, do while) para recorrer las cajas (arrays)
+    donde sabemos que sus índices son un número, el ciclo For --IN nos permite leer, recorrer o interactuar con los objetos y sus propiedades a través de su llave para acceder a sus valores.
+
+    Diferencia entre notación de puntos vs Notación de corchetes
+    La necesidad de escribir más rápido y menos líneas llevó a los programadores de java a tener una forma diferente de acceder a las propiedades de una función ej:
+    objeto.grupoDePropiedades.Propiedad es igual que escribir [objeto][grupoDePropiedades][Propiedad] entonces cual es la diferencia?
+    Respuesta: hay ocasiones que al usar ciertos métodos del objeto es confuso para el intérprete o incluso para el programador la instrucción que estamos usando, oor lo cual es necesario
+    utilizar los corchetes y así evitar dar una instrucción incorrecta, lo que esto generaría no "alcanzar" el valor guardado en la propiedad que necesitamos.
