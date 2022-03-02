@@ -1,15 +1,11 @@
 h1{
-    color:aquamarine;
+    color:blue;
 }
+
 img{
     width: 400px;
 }
-body{
-    background-image:url("background.jpg");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 #thirdDiv{
     height: 600px;
     width: 500px;
