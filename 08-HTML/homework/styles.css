@@ -1,5 +1,11 @@
-h1{
-    color:blue;
+body{
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+}
+
+h1, h3, h4{
+    color:whitesmoke;
+
 }
 
 img{
@@ -7,13 +13,21 @@ img{
 }
 
 #thirdDiv{
+    border: 50px black;
     height: 600px;
     width: 500px;
-    background-color: beige;
-    padding: 50px;
-    border: cadetblue;
+    background-color: greenyellow;
+    padding: 30px;
+    margin:50px;
+    
 }
 #spanId{
     font-size: 18px;
     margin: 50px;
+}
+
+.divClass{
+   display:flex;
+   justify-content: center;
+   align-items: center;
 }
