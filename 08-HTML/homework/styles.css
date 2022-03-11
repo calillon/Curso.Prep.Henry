@@ -3,30 +3,27 @@ body{
     background-color: #cccccc;
 }
 
-h1, h3, h4{
-    color:whitesmoke;
-
-}
 
 img{
     width: 400px;
 }
 
 #thirdDiv{
-    border: 50px black;
+    border: solid 5px black;
     height: 600px;
     width: 500px;
-    background-color: greenyellow;
+    background-color: hsl(197, 83%, 81%);
     padding: 30px;
     margin:50px;
     
 }
 #spanId{
+    color:white;
     font-size: 18px;
     margin: 50px;
 }
 
-.divClass{
+#divClass{
    display:flex;
    justify-content: center;
    align-items: center;
