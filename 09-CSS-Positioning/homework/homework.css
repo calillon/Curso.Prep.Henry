@@ -7,7 +7,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno{
-    display: block;
+    display: flex;
     text-align: center;
 }
 
@@ -24,7 +24,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioTres{
-    position: relative;
+    display:flex;
     margin-top: 100px;
     margin-left: 200px;
 }
@@ -34,7 +34,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 #ejercicioCuatro{
-    position: absolute;
+    position: fixed;
     top: 0px; left: 0px;
 }
 
@@ -44,8 +44,8 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Acá va tu código */
 #ejercicioCinco{
     display:flex;
-    justify-content:space-around;
     align-items: center;
+    justify-content:space-evenly;
     flex-direction: row-reverse; 
 }
 
